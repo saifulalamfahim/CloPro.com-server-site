@@ -4,7 +4,8 @@
   "description": "1/create root folder as CloPro.com\r         2/add frontend and backend folder\r         3/create src folder in frontend\r         4/create index.html with heading CloPro.com in src\r         4/run npm init in frontend folder\r         5/npm install live-server\r         6/add start command as live-server src --verbose\r         7/run npm start\r         8/check result",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch backend --exec babel-node backend/server.js",
+    "start": "node server.js",
+    "start:dev": "nodemon --watch backend --exec babel-node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
